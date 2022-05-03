@@ -1,6 +1,7 @@
 # Ravenous (Simple Yelp Clone) 
 Ravenous is a simple Yelp Clone created with `ReactJS`. This front-end project is part of Codecademy's course on ReactJS which is paired with Yelp's API.
 
+![FullPageScreenshot](public/Ravenous_Screenshot_FullPage.png)
 
 ## How to Run Ravenous
 
@@ -38,3 +39,16 @@ https://cors-anywhere.herokuapp.com/corsdemo
 and click on the "Request temporary access to demo server" button.
 
 That's it, youre all set !
+
+## Ravenous Notes
+
+### Ravenous Components
+- App - Main `Stateful Parent Component`
+- Business - Each Restaureant Card `Stateless Child Component`
+- BusinessList - Compilation of Business Component `Stateless Child Component`
+- SearchBar - Search Bar Component `Stateless Child Component`
+
+### Improvements Needed
+- Since this is the simplest version of Yelp's clone, some limitations are expected.
+- Text fill on both input are needed, which will otherwise result in an error.
+- Restaurant options are simply display and not clickable.
